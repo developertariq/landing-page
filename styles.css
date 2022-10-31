@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(247, 243, 243);
+  font-family: 'Lato', sans-serif;
+}
