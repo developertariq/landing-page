@@ -170,3 +170,29 @@ nav > ul {
   background-color: rgb(231, 155, 13);
   transition: background-color 1s;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(238, 234, 234);
+padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 20px;
+}
+
+footer > span {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  color: rgb(61, 59, 59);
+}
+
