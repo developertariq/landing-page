@@ -101,3 +101,13 @@ nav > ul {
   background-color: orange;
   transition: background-color 1s;
 }
+
+#features .descrip {
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  padding: 5px;
+}
+
+  
