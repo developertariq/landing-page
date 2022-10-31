@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -6,3 +6,24 @@ body {
   background-color: rgb(247, 243, 243);
   font-family: 'Lato', sans-serif;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  width: 100%;
+}
+
+#nav-bar > li {
+  list-style: none;
+}
+ 
+.nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
