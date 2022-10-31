@@ -110,4 +110,14 @@ nav > ul {
   padding: 5px;
 }
 
+#how-it-works {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
   
