@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(199, 199, 199);
+  font-family: 'Crete Round', 'Inter', 'Lato', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #eee;
+  width: 100%;
+}
+
+nav {
+  font-weight: 300px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  padding: 0 50px;
+}
+
+nav li {
+  padding-bottom: 5px;
+}
+
+nav > ul {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 0 15px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  background: transparent;
+  cursor: pointer;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 60px;
+}
+
+#hero > h1 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#hero input[type='email'] {
+  max-width: 300px;
+  width: 100%;
+  padding: 5px;
+}
+
+#hero input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f56623;
+}
+
+#hero input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+#features .descrip {
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  width: 100%;
+  padding: 5px;
+}
+
+#how-it-works {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 2px solid #000;
+}
+
+.products > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 30px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 750;
+}
+
+.products > h2 {
+  margin-top: 20px;
+}
+
+.products > ol {
+  margin: 20px 0;
+}
+
+footer > ul > li {
+  padding: 0 20px;
+}
+
+.products > ol > li {
+  padding: 10px 0;
+}
+
+.products > button {
+  border: 0;
+  margin: 10px 0;
+  background-color: #e2bb1d;
+  font-weight: 400;
+}
+
+.products > button:hover {
+  background-color: rgb(231, 155, 13);
+  transition: background-color 1s;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(238, 234, 234);
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > span {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  color: rgb(61, 59, 59);
+}
